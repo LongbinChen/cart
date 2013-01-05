@@ -1,6 +1,7 @@
 #include "dtnode.h"
 #include "tuple.h"
 #include "dataset.h"
+#include <string.h>
 
 DataSet::DataSet(ARGS& a): args(a){
     size = 0;
